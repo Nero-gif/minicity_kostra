@@ -36,5 +36,6 @@ public class ConsoleApplication {
      */
     public void run() {
         // TODO: Implementujte hlavní cyklus konzolové aplikace.
+        
     }
 }

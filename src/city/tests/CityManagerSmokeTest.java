@@ -1,5 +1,9 @@
 package city.tests;
 
+import city.CityManager;
+import city.CityMap;
+import city.Coordinate;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,7 +20,7 @@ public final class CityManagerSmokeTest {
      * @param args argumenty se nepoužívají
      */
     public static void main(String[] args) {
-        /*
+        
         CityMap cityMap = new CityMap(5);
         CityManager cityManager = new CityManager(cityMap, 2_000);
 
@@ -24,7 +28,7 @@ public final class CityManagerSmokeTest {
         cityManager.addTile("Park", new Coordinate(2, 2));
         cityManager.addTile("House", new Coordinate(3, 3));
         cityManager.addTile("Factory", new Coordinate(4, 4));
-
+        /*
         require(cityManager.getBudget() == 1_250, "Budget must decrease after adding tiles.");
         require(cityMap.getTile(new Coordinate(1, 1)) instanceof RoadTile, "Road must be added.");
         require(cityMap.getTile(new Coordinate(2, 2)) instanceof ParkTile, "Park must be added.");
