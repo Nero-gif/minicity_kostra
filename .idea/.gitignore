@@ -1,4 +1,5 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-.idea
+/.idea
+/src/minicitz_kostra.iml
